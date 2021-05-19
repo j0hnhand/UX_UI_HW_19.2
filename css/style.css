@@ -1,0 +1,428 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #0d0d0d;
+    padding: 15px;
+}
+
+.logo {
+    max-height: 50px;
+    width:auto;
+}
+header ul {
+    float: right;
+    color: white;
+}
+header li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+header p {
+    display: inline-block;
+}
+
+
+/*About Page - GRID ============ */
+
+.heroImg {
+    background-color: #adadad;
+    padding: 50px 15px;
+}
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "copy right";
+    grid-gap: 40px;
+    border-radius: 20px;
+}
+.copy {
+    grid-area: copy;
+    text-align: left;
+}
+.content h1 {
+    text-align: left;
+    font-size: 40px;
+}
+.content h2 {
+    text-align: left;
+    font-size: 30px;
+}
+.headshot {
+    max-height: 300px;
+    width: auto;
+}
+.right {
+    grid-area: right;
+    text-align: center;
+}
+button {
+    padding: 15px;
+    background-color: #8ACBBC;
+    color: #0d0d0d;
+    font-size: 15px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+
+/*Skills Page - FLEX*/
+
+.mySkills h1 {
+    font-size: 40px;
+}
+.mySkills {
+    background-color: #0d0d0d;
+    color: white;
+    padding: 100px 0px 0px 0px;
+    height: 700px;
+}
+.skillsHeader {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0px 0px 0px 80px;
+}
+.flexContainer {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.mySkills h3 {
+    font-size: 20px;
+}
+.flexChildren {
+    width: 33%;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: left;
+}
+#research {
+    padding: 10px;
+    background-image: url("../images/Skills/Research.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#empathy {
+    padding: 10px;
+    background-image: url("../images/Skills/Empathy.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#qual {
+    padding: 10px;
+    background-image: url("../images/Skills/Interviews.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.tools {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0px 0px 0px 80px;
+    max-width: 900px;
+}
+
+
+/*Gangstas to Growers Section - GRID */
+
+.g2gSection {
+    background-image: url("../images/Work/Background1.png");
+    background-size: 100% 100%;
+    padding: 100px 15px;
+}
+.workGrid1 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "left right";
+    height: 500px;
+    grid-gap: 50px;
+}
+.workGrid1 img {
+        max-height: 300px;
+        width: auto;
+        border-radius: 20px;
+}
+.g2gLeft {
+    grid-area: left;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px 0px 0px;
+
+}
+.g2gLeft button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.g2gRight {
+    grid-area: right;
+    text-align: left;
+    padding: 100px 0px 0px 0px;
+}
+
+
+/*Treasury Section - GRID ===========*/
+.treasurySection {
+    padding: 100px 15px;
+}
+.workGrid2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "left right";
+    height: 500px;
+    grid-gap: 50px;
+
+}
+.workGrid2 img {
+    max-height: 300px;
+    width: auto;
+    border-radius: 20px;
+}
+.treasuryLeft {
+    grid-area: left;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 0px 0px 0px;
+
+}
+.treasuryLeft button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.treasuryRight {
+    grid-area: right;
+    text-align: left;
+    padding: 75px 0px 0px 0px;
+}
+
+/*eleemo App Section - GRID ============== */
+
+.eleemoSection {
+    padding: 100px 15px;
+    background-image: url("../images/Work/Background2.png");
+    background-size: 100% 100%;
+}
+
+.workGrid3 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "left right";
+    height: 400px;
+    grid-gap: 50px;
+}
+.eleemoLeft {
+    grid-area: left;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px 0px 0px;
+}
+.eleemoLeft button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eleemoRight {
+    grid-area: right;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+.workGrid3 img {
+    max-height: 300px;
+    width: auto;
+    border-radius: 20px;
+}
+
+
+/*Footer ================================ */
+footer {
+    background-color: #0d0d0d;
+    padding: 5px;
+    color: white;
+    margin: 0 auto;
+}
+footer ul {
+    list-style: none;
+    padding-left: 5px;
+}
+footer li {
+    display: inline-block;
+    padding: 0px 7px;
+}
+
+
+/*Media Query responsive Flex and Grids ===== */
+
+@media only screen and (max-width: 600px){
+    header li {
+        display: inline-block;
+        padding: 0px 2px;
+        font-size: 14px;
+    }
+    .content {
+        height: 1000px;
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "copy"
+        "right"
+    }
+    .headshot {
+        padding: 200px 0px 0px 0px;
+    }
+    .heroImg {
+        height: 1100px;
+    }
+    
+    
+    /*Skills resize =============*/
+
+    .mySkills {
+        height: 1020px;
+    }
+    .skillsHeader {
+        margin: 0 auto;
+        max-width: 900px;
+        padding: 0px 0px 0px 60px;
+    }
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .flexChildren {
+        width: 80%;
+    }
+    .tools {
+        text-align: left;
+        margin: 0 auto;
+        padding: 0px 0px 0px 60px;
+        max-width: 900px;
+    }
+
+
+    /*Gangstas to Growers Section === */
+    .g2gSection {
+        padding: 0px 0px 250px 0px;
+    }
+    .workGrid1 {
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "left"
+        "right"
+    }
+    .g2gRight img {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /*Treasury Section =========== */
+
+    .treasurySection {
+        padding: 0px 0px 250px 0px;
+    }
+    .workGrid2 {
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "left"
+        "right"
+    }
+    .treasuryRight img {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*eleemo Section ================= */
+
+    .eleemoSection {
+        padding: 0px 0px 400px 0px;
+    }
+    .workGrid3 {
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "left"
+        "right"
+    }
+    .eleemoRight img {
+        padding: 50px 0px 0px 0px;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Preloader ================== */
+
+.splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0d0d0d;
+    z-index: 200;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+}
+
+.splash.display-none {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0d0d0d;
+    z-index: -10;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+    transition: all 0.5s;
+}
+
+@keyframes fadeIn {
+    to{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
